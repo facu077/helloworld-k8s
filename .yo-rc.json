@@ -1,0 +1,16 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["helloWorld"],
+    "directoryPath": "../",
+    "serviceDiscoveryType": false,
+    "jwtSecretKey": "YzBkNWQwYzU2OWEzYmFmNDNhNDBlOTlmYjJhMjIxM2YwYjQ3NDYxOTI4NWNiNWNlMDQ4YTc0ZGZmNzc1YWQ1MzBlOTkwZDM2M2E3MTFjNDA1MTIxYTQwYWFhOTQ2OTI2ZGM4Ng==",
+    "dockerRepositoryName": "facu077",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
+  }
+}

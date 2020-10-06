@@ -1,0 +1,12 @@
+commonLabels:
+  app.kubernetes.io/genereted-by: JHipster
+
+resources:
+  # Individual apps
+  - helloworld-k8s/helloworld-deployment.yml
+  - helloworld-k8s/helloworld-service.yml
+  - helloworld-k8s/helloworld-mysql.yml
+  - helloworld-k8s/jwt-secret.yml
+# service discovery eureka/consul
+
+patchesJson6902:
